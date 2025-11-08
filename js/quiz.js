@@ -16,12 +16,10 @@
   // 2. 퀴즈 데이터(JSON 파일) 로드 및 에러 처리
   try {
     // fetch는 비동기 요청을 보냅니다.
-    const response = await fetch("../data/quizzes.json");
+    const response = await fetch("./data/quizzes.json");
 
     if (!response.ok) {
-      throw new Error(
-        `퀴즈 데이터 로드 실패: ${response.status} ${response.statusText}`
-      );
+      throw new Error(`퀴즈 데이터 로드 실패: ${response.status} ${response.statusText}`);
     }
 
     // 응답을 실제 JSON 객체로 변환합니다. (⭐가장 중요⭐)
@@ -64,8 +62,7 @@
                           // 정답 확인: isCorrect 속성 사용
                           if (opt.isCorrect) classes += " correct";
                           // 오답 확인: 선택한 옵션이면서 정답이 아닐 때
-                          else if (i === selectedOptionIndex)
-                            classes += " incorrect";
+                          else if (i === selectedOptionIndex) classes += " incorrect";
                         }
                         return `<div class="${classes}" data-index="${i}">${String.fromCharCode(
                           65 + i
@@ -73,9 +70,7 @@
                       })
                       .join("")}
                 </div>
-                <div class="explanation" style="display: ${
-                  hasAnswered ? "block" : "none"
-                };">
+                <div class="explanation" style="display: ${hasAnswered ? "block" : "none"};">
                     ${explanationText}
                 </div>
                 <div class="controls">
@@ -85,9 +80,7 @@
                     <div>
                         <button class="btn secondary" id="explainBtn">설명 보기/숨기기</button>
                         <button class="btn primary" id="nextBtn">${
-                          currentIndex === quizData.length - 1
-                            ? "결과 보기"
-                            : "다음"
+                          currentIndex === quizData.length - 1 ? "결과 보기" : "다음"
                         }</button>
                     </div>
                 </div>
