@@ -1,0 +1,128 @@
+/* 이전에 만들어주신 디자인 그대로 유지 */
+:root {
+  --bg: #f9fafb;
+  --card: #ffffff;
+  --muted: #f3f4f6;
+  --text: #111827;
+  --accent: #3b82f6;
+  --success: #d1fae5;
+  --success-border: #10b981;
+  --error: #fee2e2;
+  --error-border: #ef4444;
+  font-family: "Noto Sans KR", sans-serif;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 16px;
+}
+.container {
+  width: 100%;
+  max-width: 760px;
+  background: var(--card);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 14px;
+  padding: 32px 40px;
+}
+.meta {
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+.question {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.option {
+  background: var(--muted);
+  border-radius: 10px;
+  padding: 18px 20px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.option:hover {
+  background: #e5e7eb;
+}
+.option.correct {
+  background: var(--success);
+  border: 1px solid var(--success-border);
+}
+.option.incorrect {
+  background: var(--error);
+  border: 1px solid var(--error-border);
+}
+.option.disabled {
+  pointer-events: none;
+  opacity: 0.8;
+}
+.explanation {
+  display: none;
+  margin-top: 12px;
+  padding: 12px;
+  border-left: 4px solid var(--success-border);
+  background: rgba(16, 185, 129, 0.05);
+  border-radius: 8px;
+  font-size: 14px;
+  color: #065f46;
+}
+.controls {
+  margin-top: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+.btn.primary {
+  background: var(--accent);
+  color: white;
+}
+.btn.secondary {
+  background: var(--muted);
+}
+.btn:hover {
+  opacity: 0.85;
+}
+#resultBox {
+  text-align: center;
+  padding: 40px 0;
+}
+.result-stats {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.result-card {
+  background: var(--muted);
+  border-radius: 12px;
+  padding: 20px 32px;
+  min-width: 130px;
+}
+.result-card h3 {
+  margin: 0;
+  font-size: 14px;
+  color: #6b7280;
+}
+.result-card p {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text);
+  margin: 8px 0 0 0;
+}
