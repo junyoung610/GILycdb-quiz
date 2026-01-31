@@ -1,4 +1,131 @@
 {
+  "2026-02-01": [
+    {
+      "question": "요셉이 죽은 후, 애굽의 새로운 바로 왕이 이스라엘 백성을 두려워하여 내린 결정은 무엇인가요?",
+      "options": [
+        {
+          "text": "이스라엘 백성을 애굽에서 쫓아냈다.",
+          "isCorrect": false,
+          "explanation": "바로는 이스라엘 백성이 떠나는 것보다, 그 수가 많아져 위협이 될 것을 두려워했습니다."
+        },
+        {
+          "text": "이스라엘 백성을 노예로 만들어 힘든 일을 시켰다.",
+          "isCorrect": true,
+          "explanation": "바로는 이스라엘 백성의 세력을 약화시키기 위해 노예로 삼아 혹독한 노동을 시켰습니다."
+        },
+        {
+          "text": "이스라엘 백성에게 더 많은 땅을 주어 달랬다.",
+          "isCorrect": false,
+          "explanation": "바로는 회유가 아닌 억압 정책을 선택했습니다."
+        },
+        {
+          "text": "이스라엘 백성과 평화 조약을 맺었다.",
+          "isCorrect": false,
+          "explanation": "바로는 이스라엘을 동맹이 아닌 위협 대상으로 인식했습니다."
+        }
+      ]
+    },
+    {
+      "question": "모세가 광야에서 양을 치던 중, 호렙산에서 목격한 신기한 광경은 무엇인가요?",
+      "options": [
+        {
+          "text": "하늘에서 불이 내려와 땅을 태우는 모습",
+          "isCorrect": false,
+          "explanation": "이 장면은 다른 성경 본문에서 나타나는 사건입니다."
+        },
+        {
+          "text": "양들이 사람의 말을 하는 모습",
+          "isCorrect": false,
+          "explanation": "모세의 소명 사건과는 관련이 없습니다."
+        },
+        {
+          "text": "떨기나무에 불이 붙었으나 타지 않는 모습",
+          "isCorrect": true,
+          "explanation": "불이 붙었지만 사라지지 않는 떨기나무를 통해 하나님의 임재가 나타났습니다."
+        },
+        {
+          "text": "바위에서 물이 솟아오르는 모습",
+          "isCorrect": false,
+          "explanation": "이 사건은 출애굽 이후 광야에서 일어납니다."
+        }
+      ]
+    },
+    {
+      "question": "하나님께서 떨기나무 앞에 선 모세에게 가장 먼저 하신 명령은 무엇인가요?",
+      "options": [
+        {
+          "text": "무릎을 꿇고 기도하라",
+          "isCorrect": false,
+          "explanation": "하나님은 먼저 거룩함에 대한 태도를 요구하셨습니다."
+        },
+        {
+          "text": "네가 선 곳은 거룩한 땅이니 신을 벗어라",
+          "isCorrect": true,
+          "explanation": "신발을 벗는 행위는 하나님의 거룩하심 앞에서의 경외를 상징합니다."
+        },
+        {
+          "text": "당장 애굽으로 가라",
+          "isCorrect": false,
+          "explanation": "사명 이전에 하나님 자신을 계시하셨습니다."
+        },
+        {
+          "text": "지팡이를 던져라",
+          "isCorrect": false,
+          "explanation": "이적은 이후에 주어진 표징입니다."
+        }
+      ]
+    },
+    {
+      "question": "하나님께서 모세에게 자신을 소개하실 때 언급하지 않으신 인물은 누구인가요?",
+      "options": [
+        {
+          "text": "아브라함",
+          "isCorrect": false,
+          "explanation": "이스라엘 신앙의 조상입니다."
+        },
+        {
+          "text": "이삭",
+          "isCorrect": false,
+          "explanation": "언약을 이어받은 조상입니다."
+        },
+        {
+          "text": "야곱",
+          "isCorrect": false,
+          "explanation": "이스라엘 열두 지파의 조상입니다."
+        },
+        {
+          "text": "요셉",
+          "isCorrect": true,
+          "explanation": "하나님은 자신을 주로 아브라함, 이삭, 야곱의 하나님으로 소개하십니다."
+        }
+      ]
+    },
+    {
+      "question": "하나님께서 모세에게 가르쳐 주신 하나님의 이름은 무엇인가요?",
+      "options": [
+        {
+          "text": "임마누엘",
+          "isCorrect": false,
+          "explanation": "예수님의 탄생과 관련된 이름입니다."
+        },
+        {
+          "text": "스스로 있는 자",
+          "isCorrect": true,
+          "explanation": "하나님은 영원하며 누구에게도 의존하지 않는 분이심을 나타냅니다."
+        },
+        {
+          "text": "전능하신 왕",
+          "isCorrect": false,
+          "explanation": "의미는 맞지만 본문에서 직접 사용된 이름은 아닙니다."
+        },
+        {
+          "text": "치료하시는 여호와",
+          "isCorrect": false,
+          "explanation": "다른 상황에서 계시된 하나님의 속성입니다."
+        }
+      ]
+    }
+  ],
   "2026-01-18": [
     {
       "question": "요셉의 이야기에서 아버지 야곱의 특별한 사랑을 상징했던 첫 번째 옷은 무엇이었나요?",
